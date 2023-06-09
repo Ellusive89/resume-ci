@@ -199,7 +199,7 @@
     </footer>
     <script>
         function initMap() {
-            var map = new google.maps.Map(document.getElemrntById("map"), {
+            var map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 3,
                 center: {
                     lat: 46.619261,
@@ -207,19 +207,11 @@
                 }
             });
 
-            var labels = "ABCDEFGIJKLMNOPQRSTUVWXYZ";
-
-            var locations = [
-                { lat: 40.785091, lng: -73.968285 },
-                { lat: 41.084045, lng: -73.874245 },
-                { lat: 40.754932, lng: -73.984016 }
-            ];
-
-            var markers = locations.map(function(location, i))
+            
         }
     </script>
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7-8w_sGOQ-GNB3iebkez8J1xfOb2GFHk&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALRCa1L9eSdbdz1X9TI6p-0XdP220KxcU&callback=initMap"></script>
     <script src="assets/js/maps.js"></script>
 </body>
 
